@@ -29,7 +29,7 @@ border-r border-white/10
 flex
 flex-col justify-between
 py-6
-shadow-2xl
+shadow-2xl md:hidden
 '>
                     <div className='flex items-center justify-end w-full text-white p-2' onClick={()=>{
                         setOpen(false)
